@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --stone-100: hsl(30, 54%, 90%);
+  --stone-150: hsl(30, 18%, 87%);
+  --stone-600: hsl(30, 10%, 34%);
+  --stone-900: hsl(24, 5%, 18%);
+
+  --brown-800: hsl(14, 45%, 36%);
+
+  --rose-800: hsl(332, 51%, 32%);
+  --rose-50: hsl(330, 100%, 98%);
+
+  --font-size: 16px;
+
+  --font-family: "Young Serif", serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+  color: var(--stone-600);
+}
+
+.omelette-recipe {
+  width: 100%;
+  min-height: 100vh;
+  background: var(--stone-100);
+  padding: 6rem 0;
+}
+
+.recipe-container {
+  width: 70%;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: var(--white);
+  margin: 0 auto;
+}
+
+.recipe-image {
+  width: 100%;
+}
+
+.recipe-info {
+  width: 100%;
+  margin: 1.5rem 0;
+}
+
+.recipe-name {
+  font-size: 2.5rem;
+  margin: 1rem 0 0.8rem;
+  color: var(--stone-900);
+}
+
+.recipe-desc {
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+  display: block;
+  line-height: 1.5rem;
+  color: var(--stone-600);
+}
+
+.preparation-time {
+  width: 100%;
+  height: fit-content;
+  background: var(--rose-50);
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+.preparation-time-header {
+  color: var(--rose-800);
+  font-size: 1.5rem;
+  margin: 0 0 1rem;
+  font-family: "Outfit", sans-serif;
+}
+
+.preparation-time-list {
+  margin-left: 1.2rem;
+}
+
+.preparation-time-list-item {
+  padding: 0.5rem 2rem;
+  font-size: var(--font-size);
+  font-family: "Outfit", sans-serif;
+}
+
+.preparation-time-list-item b {
+  font-family: "Outfit", sans-serif;
+}
+
+.ingredients {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.ingredient-header {
+  font-size: 2rem;
+  color: var(--brown-800);
+  margin: 1.5rem 0;
+}
+
+.ingredient-list {
+  width: 100%;
+  margin-left: 1.5rem;
+}
+
+.ingredient-list-items {
+  padding: 0.5rem 2rem;
+  font-size: var(--font-size);
+  font-family: "Outfit", sans-serif;
+}
+
+.instructions {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.instruction-header {
+  font-size: 2rem;
+  color: var(--brown-800);
+  margin-bottom: 1.5rem;
+}
+
+.instruction-list {
+  margin-left: 1.5rem;
+}
+
+.instruction-list-item {
+  line-height: 1.8rem;
+  font-size: 1rem;
+  padding: 0.5rem 2rem;
+  font-family: "Outfit", sans-serif;
+}
+
+.instruction-list-item b {
+  font-size: 1.1rem;
+  font-family: "Outfit", sans-serif;
+}
+
+.nutrition {
+  width: 100%;
+}
+
+.nutrition-header {
+  color: var(--brown-800);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.nutrition-desc {
+  font-family: "Outfit", sans-serif;
+}
+
+.nutrition-table {
+  width: 100%;
+  margin-top: 1rem;
+  border-collapse: collapse;
+}
+
+.nutrition-table tr{
+    border-bottom: 2px solid darkgray;
+}
+
+.nutrition-table tr:last-child{
+    border-bottom: none;
+}
+
+.nutrition-table tr td{
+    padding: 1rem 2rem;
+    font-family: "Outfit", sans-serif;
+    font-size: 1rem;
+}
+
+.nutrition-table tr td:last-child{
+    font-weight: bold;
+    color: var(--brown-800);
+}
+
+.attribution {
+    font-size: var(--font-size);
+    text-align: center;
+    padding: 1rem;
+    font-family: "Outfit", sans-serif;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+    font-family: "Outfit", sans-serif;
+  }
