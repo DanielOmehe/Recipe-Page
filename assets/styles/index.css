@@ -162,34 +162,65 @@
   border-collapse: collapse;
 }
 
-.nutrition-table tr{
-    border-bottom: 2px solid darkgray;
+.nutrition-table tr {
+  border-bottom: 2px solid darkgray;
 }
 
-.nutrition-table tr:last-child{
-    border-bottom: none;
+.nutrition-table tr:last-child {
+  border-bottom: none;
 }
 
-.nutrition-table tr td{
-    padding: 1rem 2rem;
-    font-family: "Outfit", sans-serif;
-    font-size: 1rem;
+.nutrition-table tr td {
+  padding: 1rem 2rem;
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
 }
 
-.nutrition-table tr td:last-child{
-    font-weight: bold;
-    color: var(--brown-800);
+.nutrition-table tr td:last-child {
+  font-weight: bold;
+  color: var(--brown-800);
 }
 
 .attribution {
-    font-size: var(--font-size);
-    text-align: center;
-    padding: 1rem;
-    font-family: "Outfit", sans-serif;
-  }
+  font-size: var(--font-size);
+  text-align: center;
+  padding: 1rem;
+  font-family: "Outfit", sans-serif;
+}
 
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-    text-decoration: none;
-    font-family: "Outfit", sans-serif;
-  }
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+  font-family: "Outfit", sans-serif;
+}
+
+@media only screen and (max-width: 400px) {
+    .omelette-recipe{
+        padding: 0;
+        margin: 0;
+    }
+    
+    .recipe-container{
+        width: 100%;
+        border-radius: 0;
+        padding: 1.5rem;
+    }
+
+    .recipe-info{
+        margin-top: 10rem;
+    }
+
+    .recipe-image{
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .recipe-name{
+        font-size: 2rem;
+    }
+
+    .preparation-time{
+        width: 100%;
+    }
+}
