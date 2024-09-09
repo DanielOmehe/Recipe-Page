@@ -86,7 +86,13 @@
 .preparation-time-list-item {
   padding: 0.5rem 2rem;
   font-size: var(--font-size);
+  color: var(--brown-800);
   font-family: "Outfit", sans-serif;
+}
+
+.preparation-time-list-item p{
+  font-family: "Outfit", sans-serif;
+  color: var(--stone-600);
 }
 
 .preparation-time-list-item b {
@@ -107,11 +113,18 @@
 .ingredient-list {
   width: 100%;
   margin-left: 1.5rem;
+  margin-bottom: -1rem;
 }
 
 .ingredient-list-items {
   padding: 0.5rem 2rem;
   font-size: var(--font-size);
+  color: var(--brown-800);
+  font-family: "Outfit", sans-serif;
+}
+
+.ingredient-list-items p{
+  color: var(--stone-600);
   font-family: "Outfit", sans-serif;
 }
 
@@ -131,9 +144,21 @@
 }
 
 .instruction-list-item {
-  line-height: 1.8rem;
+  line-height: 1.5rem;
   font-size: 1rem;
-  padding: 0.5rem 2rem;
+  padding: 0.3rem 2rem;
+  color: var(--brown-800);
+  font-weight: bold;
+  font-family: "Outfit", sans-serif;
+}
+
+hr{
+  color: var(--stone-150);
+  margin: 2rem 0;
+}
+
+.instruction-list-item p{
+  font-weight: lighter;
   font-family: "Outfit", sans-serif;
 }
 
